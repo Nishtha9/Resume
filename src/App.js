@@ -53,15 +53,15 @@ class App extends Component {
 
       <Container>
         <Row>
-        <Col xs="4" className="content"> <Skills/> </Col>
-        <Col xs={{size: 4, offset:2}} className="content"> <TnI/> </Col>
+        <Col lg="4" md="12"> <Skills/> </Col> <br/>
+        <Col lg={{size: 4, offset:2}} md="12"> <TnI/> </Col>
         </Row>
 
-        <About className="aboutme content"/>
+        <About className="aboutme"/>
 
         <Row>
-        <Col xs="4" className="content"> <EduQual/> </Col>
-        <Col xs={{size: 4, offset:2}} className="content"> <Projects/> </Col>
+        <Col lg="4" md="12"> <EduQual/> </Col> <br/>
+        <Col lg={{size: 4, offset:2}} md="12"> <Projects/> </Col>
         </Row>
 
         </Container>
