@@ -21,7 +21,7 @@ class Skills extends Component {
         <ol style={{"margin":"10px", "font-size":"18px"}}>
       <li> <strong> Programming Languages:</strong>	C, C++, Java (J2SE)</li>
       <li> <strong> Frameworks:       </strong>               	Laravel </li>
-      <li> <strong> Web Design:		</strong>	HTML, CSS, Bootstrap, Javascript, jQuery, Ajax</li>
+      <li> <strong> Web Design:		</strong>	HTML, CSS, Bootstrap, Javascript, jQuery, Ajax, React.js</li>
       <li>  <strong>Web Technologies:	</strong>	PHP, Node.js</li>
       <li> <strong> Databases:		</strong>		MongoDB, MySQL</li>
       <li> <strong> Servers:		</strong>		Apache</li>
