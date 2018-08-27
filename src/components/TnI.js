@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import tni from '../images/TnI.jpg';
 import './common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class TnI extends Component {
   render() {
@@ -8,7 +9,7 @@ class TnI extends Component {
       <div class="mainimg">
         <div class="card">
           <div class="front">
-              <img src={tni} alt='Skills' className="imgs"/>
+              <img src={tni} alt='Skills' className="imgs img-responsive"/>
               <div class="description">
                 <div class="description_content">
                   <h3> Trainings and <br/> Internships</h3>

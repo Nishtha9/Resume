@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import eduqual from '../images/EduQual.jpg';
 import './common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class EduQual extends Component {
   render() {
@@ -9,7 +10,7 @@ class EduQual extends Component {
       <div class="mainimg">
         <div class="card">
           <div class="front">
-              <img src={eduqual}  className="imgs"/>
+              <img src={eduqual}  className="imgs img-responsive"/>
               <div class="description">
                 <div class="description_content">
                   <h3>Educational <br/> Quaifications</h3>

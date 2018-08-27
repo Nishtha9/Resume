@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import skills from '../images/Skills.jpg';
 import './common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Skills extends Component {
   render() {
     return (
-    <div class="mainimg">
-      <div class="card">
-        <div class="front">
-              <img src={skills} alt='Skills' className="imgs"/>
-              <div class="description">
-                <div class="description_content">
+    <div className="mainimg">
+      <div className="card">
+        <div className="front">
+              <img src={skills} alt='Skills' className="imgs img-responsive"/>
+              <div className="description">
+                <div className="description_content">
                   <h3> My Skills</h3>
                 </div>
               </div>

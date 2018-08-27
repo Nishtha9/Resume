@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import projects from '../images/projects.jpg';
 import './common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Projects extends Component {
   render() {
@@ -8,7 +9,7 @@ class Projects extends Component {
       <div class="mainimg">
         <div class="card">
           <div class="front">
-              <img src={projects} alt='Skills' className="imgs"/>
+              <img src={projects} alt='Skills' className="imgs img-responsive"/>
           </div>
 
           <div class="back" >

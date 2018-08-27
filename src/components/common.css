@@ -4,6 +4,8 @@ body {
   background-size: cover;
 }
 
+
+
 div.description{
 	position:absolute; /* absolute position (so we can position it where we want)*/ /* position will be on bottom */
 	left:50%;
@@ -28,7 +30,6 @@ p.description_content{
   height: 300px;
   border: 2px solid white;
   border-radius: 25px;
-
 }
 
 .me {
@@ -124,5 +125,27 @@ div.mainimg:hover {
 a{
   text-decoration:none;
   color: white;
-  font-size:25px;
+  font-size:20px;
+}
+
+@media (max-width: 768px) {
+  div{
+    width:100%;
+    display: block;
+    position: relative;;
+  }
+
+  .imgs .mainimg .thecard .front .back {
+    width:100%;
+    display: block;
+    position: relative;
+  }
+
+  .content{
+    display:block;
+    position: relative;
+    width:100%;
+  }
+
+
 }

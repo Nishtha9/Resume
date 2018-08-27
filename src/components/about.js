@@ -3,6 +3,7 @@ import photo from '../images/photo.jpg';
 import { Container, Row, Col } from 'reactstrap';
 import './common.css';
 import { Button, Popover, PopoverHeader, PopoverBody } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class About extends Component {
 
@@ -24,8 +25,8 @@ class About extends Component {
   render() {
     return (
       <Container>
-            <img src={photo} className="me" />
-            <div class="desc" style={{"text-align":"center", "padding-top":"30px"}}>
+            <img src={photo} className="me img-responsive" />
+            <div class="desc" style={{"text-align":"center", "paddingTop":"30px"}}>
             <br/>
                           <div>
                       <Button id="Popover1" onClick={this.toggle}>
