@@ -44,25 +44,23 @@ class About extends Component {
             </div>
 
           <div class="desc1" style={{"text-align":"center", "paddingTop":"30px"}}>
-        <Button id="Popover1" onClick={this.toggle}>
-          <h3>About Me</h3><br/>
+        <Button id="Popover2" onClick={this.toggle}>
+          <h4>My Profiles</h4><br/>
         </Button>
-        <Popover placement="bottom" isOpen={this.state.popoverOpen} target="Popover1" toggle={this.toggle}>
-          <PopoverHeader>Career Objective</PopoverHeader>
-          <PopoverBody>To contribute to the success of software projects for a leading Information Technology company which is at the forefront of digital and web application development and leverage my knowledge and experience in Java programming, software development and web development life cycle.</PopoverBody>
+        <Popover placement="left" isOpen={this.state.popoverOpen} target="Popover2" toggle={this.toggle} style={{"background-color":"black", "color":"white"}}>
+
+                  <a  href="https://github.com/Nishtha9" target="_blank">Github </a>
+                <br/>
+
+                  <a href="https://www.hackerrank.com/nish0349" target="_blank">  HackerRank </a>
+                <br/>
+
+                  <a  href="https://www.linkedin.com/in/nishtha-goswami-44a976140" target="_blank">LinkedIn </a>
+                <br/>
+
+                  <a href="mailto:nish0349@gmai.com?Subject=In%20response%20to%20your%20resume">Mail</a>
+
         </Popover>
-
-          <a  href="https://github.com/Nishtha9" target="_blank">Github </a>
-        <br/>
-
-          <a href="https://www.hackerrank.com/nish0349" target="_blank">  HackerRank </a>
-        <br/>
-
-          <a  href="https://www.linkedin.com/in/nishtha-goswami-44a976140" target="_blank">LinkedIn </a>
-        <br/>
-
-          <a href="mailto:nish0349@gmai.com?Subject=In%20response%20to%20your%20resume">Mail</a>
-        
       </div>
 
 
