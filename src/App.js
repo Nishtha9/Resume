@@ -47,7 +47,7 @@ class App extends Component {
 
         This website has been made using React.js.
         <br/>
-        To download my complete resume, <a href="https://drive.google.com/file/d/1UCipg6utsTTB_3lwXnLExSmiEb1Lw4vH/view?usp=sharing" style={{"color":"black"}}>click here. </a>
+        To download my complete resume, <a href="https://drive.google.com/file/d/1DRy6iD4WmRsUvnAeqTH-_v7duaMMZqKi/view?usp=sharing" style={{"color":"black"}}>click here. </a>
       </Alert>
 
 

@@ -37,7 +37,7 @@ class NavBar extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink dow href="./Nishtha_Goswami_IT_NIT_RAIPUR.pdf" target="_blank">Download my resume here</NavLink>
+            <NavLink dow href="./Nishtha_Goswami_IT_NIT_RAIPUR.pdf" target="_blank">Download my resume here</NavLink>
             </NavItem>
             </Nav>
           </Collapse>
